@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Hang Man Game
+    </title>
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Hang Man!</h1>
+        <h1>Guess A Letter Fool!</h1>
+    </header>
+    <div id="hang-man-word">
+    </div>
+    <form id="guessLetter">
+        <input type="text" id="letter" maxlength="1" placeholder="Guess a letter!" />
+        <input class="guessButton" type="submit" value="Press Me" />
+    </form>
+    <p>Letters Guessed:<span></span></p>
+    <p>Turns:</p><span class="lives"></span>
+    <div class="game-over">
+        <p></p>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
